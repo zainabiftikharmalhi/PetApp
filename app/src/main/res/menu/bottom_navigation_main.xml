@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_pet"
+        android:enabled="true"
+        android:icon="@drawable/paw"
+        android:title="Add Pet"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_reminder"
+        android:enabled="true"
+        android:icon="@drawable/reminder"
+        android:title="@string/text_schedules"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_location"
+        android:enabled="true"
+        android:icon="@drawable/loc"
+        android:title="Location"
+        app:showAsAction="ifRoom" />
+</menu>
